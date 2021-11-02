@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rest API Testing Demo">
+  <test thread-count="5" name="Location CRUD">
+    <classes>
+      <class name="com.rest.TestingDemo.Location_Add_Update_Get_Delete"/>
+    </classes>
+  </test> <!-- Location CRUD -->
+</suite> <!-- Rest API Testing Demo -->

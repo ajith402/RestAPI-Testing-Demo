@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-03T00:44:38 IST" name="Rest API Testing Demo" finished-at="2021-11-03T00:44:51 IST" duration-ms="12340">
+    <groups>
+    </groups>
+    <test started-at="2021-11-03T00:44:38 IST" name="Location CRUD" finished-at="2021-11-03T00:44:51 IST" duration-ms="12340">
+      <class name="com.rest.TestingDemo.Location_Add_Update_Get_Delete">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rest.TestingDemo.Location_Add_Update_Get_Delete@157853da]" started-at="2021-11-03T00:44:38 IST" name="setUp" finished-at="2021-11-03T00:44:38 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addPlace()[pri:1, instance:com.rest.TestingDemo.Location_Add_Update_Get_Delete@157853da]" started-at="2021-11-03T00:44:38 IST" name="addPlace" finished-at="2021-11-03T00:44:41 IST" duration-ms="2329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPlace -->
+        <test-method signature="updatePlace()[pri:2, instance:com.rest.TestingDemo.Location_Add_Update_Get_Delete@157853da]" started-at="2021-11-03T00:44:41 IST" name="updatePlace" finished-at="2021-11-03T00:44:43 IST" duration-ms="2735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePlace -->
+        <test-method signature="getPlaceWithUpdatedAddress()[pri:3, instance:com.rest.TestingDemo.Location_Add_Update_Get_Delete@157853da]" started-at="2021-11-03T00:44:43 IST" name="getPlaceWithUpdatedAddress" finished-at="2021-11-03T00:44:45 IST" duration-ms="2139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlaceWithUpdatedAddress -->
+        <test-method signature="deletePlace()[pri:4, instance:com.rest.TestingDemo.Location_Add_Update_Get_Delete@157853da]" started-at="2021-11-03T00:44:45 IST" name="deletePlace" finished-at="2021-11-03T00:44:48 IST" duration-ms="2756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePlace -->
+        <test-method signature="getPlaceAFterDeleting()[pri:5, instance:com.rest.TestingDemo.Location_Add_Update_Get_Delete@157853da]" started-at="2021-11-03T00:44:48 IST" name="getPlaceAFterDeleting" finished-at="2021-11-03T00:44:50 IST" duration-ms="2328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlaceAFterDeleting -->
+      </class> <!-- com.rest.TestingDemo.Location_Add_Update_Get_Delete -->
+    </test> <!-- Location CRUD -->
+  </suite> <!-- Rest API Testing Demo -->
+</testng-results>
